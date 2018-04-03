@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.left{
+    height : 100vh;
+}
+.right{
+    height : 100vh;
+    background: #F7F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : #929fa6;
+    border-bottom: #07bc4c solid 5px;
+}
+.icons{
+    height : 60px;
+    background: #EEEEEE;
+    display: flex;
+    align-items : center;
+    justify-content: space-between;
+}
+.icons img{
+    display: inline-block;
+    margin : 10px;
+}
+.search-bar{
+    height: 50px;
+    background: #FBFBFB;
+    display: flex;
+    align-items : center;
+}
+.recent-chats{
+    overflow-y: scroll;
+    height: 90vh;
+}
+.recent-chats .col-12{
+    padding : 0px;
+}
+.list-group-item{
+    padding : 6px 20px;
+}
+.list-group-item:first-child{
+    border-radius: 0px;
+}
+.list-group-item:last-child{
+    border-radius: 0px;
+}
+.chat-item{
+    display: flex;
+    align-items: center;
+}
+.chat-text{
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    width: 100%;
+}
+.user-name{
+    align-self: flex-start;
+    font-size: 1.1em;
+}
+.chat-head{
+    display: flex;
+    justify-content: space-between;
+}
+.chat-time{
+    font-size: 0.9em;
+}
+.right .main-text{
+    font-size: 2em;
+}
+.main-text{
+    color : #4b5961;
+}
+.right a{
+    color : #07bc4c
+}
+.right a:hover{
+    text-decoration: none;
+}
+hr{
+    margin: 30px 0;
+}
+.chat-window{
+    margin : 50px 100px 0 100px;
+}
+.profile-section-top{
+    height: 110px;
+    background: #00BFA5;
+    display: flex;
+    align-items: flex-end;
+}
+.profile-section-top-text{
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.profile-section-top-text span{
+    margin-left : 20px;
+}
+.profile-section-pic{
+    height: 254px;
+    background: #F7F7F7;
+}
+.profile-section-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-section-info{
+    height: 92px;
+}
+.container-group{
+    margin : 10px 0 10px 40px ;
+    height: 100%;
+    width: 100%;
+    color : #00BFA5;
+}
+.push-down{
+    width: 100%;
+    color : #000;
+    font-size: 1.1em;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-section-warning{
+    height: 83px;
+    background: #F7F7F7;
+}
+.profile-section-warning span{
+    margin: 10px 30px;
+    color : #929fa6;
+}
